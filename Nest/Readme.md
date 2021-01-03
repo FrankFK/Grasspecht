@@ -1,10 +1,10 @@
 # WebApplication1
 
-Erster Versuch für eine Web-Seite
+Erster Versuch fï¿½r eine Web-Seite
 
 ## Getting Started
 
-Quellen auf die lokale Maschine holen. Die sln-Datei mit Visual Studio 2019 öffnen. Dann im Menü->Debug->Start Debugging
+Quellen auf die lokale Maschine holen. Die sln-Datei mit Visual Studio 2019 ï¿½ffnen. Dann im Menï¿½->Debug->Start Debugging
 
 ### Prerequisites
 
@@ -13,7 +13,7 @@ Visual Studio 2019 (beispielsweise Commercial Edition) muss installiert sein
 
 ### Installing
 
-Über publish auf dem Projekt Nest kann das Projekt im IIS installiert werden. Dafür sind aber weitere Dinge zu installieren.
+ï¿½ber publish auf dem Projekt Nest kann das Projekt im IIS installiert werden. Dafï¿½r sind aber weitere Dinge zu installieren.
 
 
 ## Running the tests
@@ -32,7 +32,7 @@ TBD
 
 Erledigt:
 * 29.12.2020: Prototyp hochgeladen auf github
-* 03.02.2021: Solution heißt jetzt Grasspecht und das Beispiel heißt Nest
+* 03.02.2021: Solution heiï¿½t jetzt Grasspecht und das Beispiel heiÃŸt Nest.  Mal probeweise auch aus VS-Code geÃ¤ndert.
 
 Geplant:
 
