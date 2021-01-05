@@ -5,53 +5,54 @@
     Layout = "~/Pages/Shared/_LayoutAllgemein.cshtml";
 }
 
-<div class="container" style="margin-top: 3.5rem;">
-    <!-- Überschriften Row im selben container damit es bündig ist -->
-    <div class="row justify-content-center">
-        <div style="margin-bottom: 2rem; width: 24rem;">
-            <h2 class="font-weight-bold">
-                Wähle eine Rolle
-            </h2>
-        </div>
-    </div>
-
-    <div class="row justify-content-center">
-        <!--Die Id="button-deaktiviert" ist um den Button zu deaktivieren sobalt das spielerlimit ereicht ist-->
-        <!-- Diese Karte soll als Button funktionieren -->
-        <div class="card menue-button tile button-anklage" id="button-deaktiviert">
-            <div class="card-body">
-                <h5 class="text-center" style="margin: 0.4rem;">Ankläger</h5>
+    <div class="container" style="margin-top: 3.5rem;">
+        <!-- Form-Element ist notwendig, damit der button-Klick auch am Server ankommt -->
+        <form method="post">
+            <!-- Überschriften Row im selben container damit es bündig ist -->
+            <div class="row justify-content-center">
+                <div style="margin-bottom: 2rem; width: 24rem;">
+                    <h2 class="font-weight-bold">
+                        Wähle eine Rolle
+                    </h2>
+                </div>
             </div>
-        </div>
-    </div>
 
-    <div class="row justify-content-center">
-        <!-- Diese Karte soll als Button funktionieren -->
-        <div class="card menue-button tile button-verteidigung" id="">
-            <div class="card-body">
-                <h5 class="text-center" style="margin: 0.4rem;">Verteidiger</h5>
+            <div class="row justify-content-center">
+                <!--Die Id="button-deaktiviert" ist um den Button zu deaktivieren sobalt das spielerlimit ereicht ist-->
+                <!-- Diese Karte soll als Button funktionieren -->
+                <div class="card menue-button tile button-anklage" id="button-deaktiviert">
+                    <div class="card-body">
+                        <h5 class="text-center" style="margin: 0.4rem;">Ankläger</h5>
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
 
-    <div class="row justify-content-center">
-        <!-- Diese Karte soll als Button funktionieren -->
-        <div class="card menue-button tile button-gericht" id="">
-            <div class="card-body">
-                <h5 class="text-center" style="margin: 0.4rem;">Richter</h5>
+            <div class="row justify-content-center">
+                <!-- Diese Karte soll als Button funktionieren -->
+                <div class="card menue-button tile button-verteidigung" id="">
+                    <div class="card-body">
+                        <h5 class="text-center" style="margin: 0.4rem;">Verteidiger</h5>
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
 
-    <div class="row justify-content-center">
-        <!-- Diese Karte soll als Button funktionieren -->
-        <div class="card menue-button tile button-gericht" id="button-deaktiviert">
-            <div class="card-body">
-                <h5 class="text-center" style="margin: 0.4rem;">Oberrichter</h5>
+            <div class="row justify-content-center">
+                <!-- Diese Karte soll als Button funktionieren -->
+                <div class="card menue-button tile button-gericht" id="">
+                    <div class="card-body">
+                        <h5 class="text-center" style="margin: 0.4rem;">Richter</h5>
+                    </div>
+                </div>
             </div>
-        </div>
+
+            <div class="row justify-content-center">
+                <!-- Diese Karte soll als Button funktionieren -->
+                <div class="card menue-button tile button-gericht" id="button-deaktiviert">
+                    <div class="card-body">
+                        <h5 class="text-center" style="margin: 0.4rem;">Oberrichter</h5>
+                    </div>
+                </div>
+            </div>
+
+        </form>
     </div>
-
-
-</div>
-

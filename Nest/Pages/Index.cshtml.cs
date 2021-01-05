@@ -19,7 +19,7 @@ namespace Nest.Pages
 
         public void OnGet()
         {
-
+            _logger.LogInformation("Nur damit Logger auch schon mal benutzt wird");
         }
     }
 }

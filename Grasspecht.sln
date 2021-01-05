@@ -7,7 +7,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nest", "Nest\Nest.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gesetz.Wireframe", "Gesetz.Wireframe\Gesetz.Wireframe.csproj", "{E5D2D509-9725-4C66-A0DF-CD366AC57072}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gesetz", "Gesetz\Gesetz.csproj", "{33F3B0D9-A646-4855-B41A-49A58FED605B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gesetz", "Gesetz\Gesetz.csproj", "{33F3B0D9-A646-4855-B41A-49A58FED605B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gesetz.Spiellogik.UnitTests", "Gesetz.Spiellogik.UnitTests\Gesetz.Spiellogik.UnitTests.csproj", "{44E17EFE-0188-485F-B7D7-0BA6927CF94E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{69C8F3A8-682A-4F57-9F69-013C2C2457F9}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +34,10 @@ Global
 		{33F3B0D9-A646-4855-B41A-49A58FED605B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33F3B0D9-A646-4855-B41A-49A58FED605B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33F3B0D9-A646-4855-B41A-49A58FED605B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44E17EFE-0188-485F-B7D7-0BA6927CF94E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44E17EFE-0188-485F-B7D7-0BA6927CF94E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44E17EFE-0188-485F-B7D7-0BA6927CF94E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44E17EFE-0188-485F-B7D7-0BA6927CF94E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

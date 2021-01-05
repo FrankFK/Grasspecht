@@ -10,3 +10,8 @@
 * Die Start-Seite wird zurzeit erstmal in Pages/Shared/_Layout.cshtml aufgerufen
 * Alle anderen Dateien sind erst mal nicht wichtig.
 
+### 05.01.2020
+
+* Das Layout der Start-Seite musste geändert werden. Damit die Start-Aktion auf der Web-Seite 
+  ankommt, muss das Ganze in einem html-form stehen und das Starten wird über einen html-button ausgelöst 
+
