@@ -15,3 +15,12 @@
 * Das Layout der Start-Seite musste geändert werden. Damit die Start-Aktion auf der Web-Seite 
   ankommt, muss das Ganze in einem html-form stehen und das Starten wird über einen html-button ausgelöst 
 
+### 09.01.2020
+
+* Spieler-Auswahl funktioniert im Prinzip. Zum Test kommt man nach der Auswahl eines Spielers
+  zurück auf die Startseite und kann dann den nächsten Spieler auswählen.
+* In PlayerSelect.cshtml wird Style des Buttons wird geändert, wenn die Rolle 
+  nicht mehr frei ist. Ich habe das so gemacht, wie es im Wireframe gemacht wurde -
+  also mit der id. Das sieht für mich aber seltsam aus. Im Web habe ich andere Beschreibungen gefunden:
+  https://stackoverflow.com/questions/35818064/how-to-change-color-of-bootstrap-disabled-button/35818211.
+  Das sieht für mich "sauberer" aus, hat aber nicht funktioniert.

@@ -20,38 +20,46 @@
             <div class="row justify-content-center">
                 <!--Die Id="button-deaktiviert" ist um den Button zu deaktivieren sobalt das spielerlimit ereicht ist-->
                 <!-- Diese Karte soll als Button funktionieren -->
-                <div class="card menue-button tile button-anklage" id="button-deaktiviert">
+                <button type="submit" asp-page-handler="Anklaeger" class="card menue-button tile button-anklage" 
+                        id="@(Model.AnklaegerEnabled?null:"button-deaktiviert")"
+                        disabled="@(Model.AnklaegerEnabled?null:"disabled")">
                     <div class="card-body">
                         <h5 class="text-center" style="margin: 0.4rem;">Ankläger</h5>
                     </div>
-                </div>
+                </button>
             </div>
 
             <div class="row justify-content-center">
                 <!-- Diese Karte soll als Button funktionieren -->
-                <div class="card menue-button tile button-verteidigung" id="">
+                <button type="submit" asp-page-handler="Verteidiger" class="card menue-button tile button-verteidigung" 
+                        id="@(Model.VerteidigerEnabled?null:"button-deaktiviert")"
+                        disabled="@(Model.VerteidigerEnabled?null:"disabled")">
                     <div class="card-body">
                         <h5 class="text-center" style="margin: 0.4rem;">Verteidiger</h5>
                     </div>
-                </div>
+                </button>
             </div>
 
             <div class="row justify-content-center">
                 <!-- Diese Karte soll als Button funktionieren -->
-                <div class="card menue-button tile button-gericht" id="">
+                <button type="submit" asp-page-handler="Richter" class="card menue-button tile button-gericht" 
+                        id="@(Model.RichterEnabled?null:"button-deaktiviert")"
+                        disabled="@(Model.RichterEnabled?null:"disabled")">
                     <div class="card-body">
                         <h5 class="text-center" style="margin: 0.4rem;">Richter</h5>
                     </div>
-                </div>
+                </button>
             </div>
 
             <div class="row justify-content-center">
                 <!-- Diese Karte soll als Button funktionieren -->
-                <div class="card menue-button tile button-gericht" id="button-deaktiviert">
+                <button type="submit" asp-page-handler="Oberrichter" class="card menue-button tile button-gericht" 
+                        id="@(Model.OberrichterEnabled?null:"button-deaktiviert")"
+                        disabled="@(Model.OberrichterEnabled?null:"disabled")">
                     <div class="card-body">
                         <h5 class="text-center" style="margin: 0.4rem;">Oberrichter</h5>
                     </div>
-                </div>
+                </button>
             </div>
 
         </form>

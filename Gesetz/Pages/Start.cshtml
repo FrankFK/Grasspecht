@@ -15,7 +15,9 @@
             <!-- Start- bzw. Teilnehmen-Button -->
             <div class="row justify-content-center">
                 <!-- Diese Karte soll als Button funktionieren -->
-                <button type="submit" class="card menue-button tile button-gericht">
+                <button type="submit" class="card menue-button tile button-gericht"
+                        id="@(Model.TeilnahmeMoeglich?null:"button-deaktiviert")"
+                        disabled="@(Model.TeilnahmeMoeglich?null:"disabled")" >
                     <div class="card-body">
                         <h5 class="text-center" style="margin: 0.4rem;">@Model.AktionsText</h5>
                     </div>

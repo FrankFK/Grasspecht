@@ -3,6 +3,7 @@ html {
   min-height: 100%;
 }
 
+
 .menue-button {
   color: rgb(236, 236, 236);
   width: 24rem;
@@ -62,19 +63,20 @@ html {
   background-color: transparent;
   border-style: solid;
   border-width: 2px;
-  border-color: back;
+  border-color: black;
 }
 
 #button-deaktiviert {
   background-color: transparent;
   border-style: solid;
   border-width: 2px;
-  border-color: back;
+  border-color: black;
   color: black;
 }
 
+
 .button-anklage {
-  background-color: rgb(218, 120, 120);
+    background-color: rgb(218, 120, 120);
 }
 
 .button-verteidigung {

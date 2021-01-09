@@ -41,6 +41,25 @@ namespace Gesetz.Spiellogik.UnitTests
         }
 
         [TestMethod]
+        public void TeilnehmerSpeichern_Funktioniert()
+        {
+            var spiele = new Spielspeicher();
+            var schlüssel = spiele.SpielEinfügen();
+            var spiel = spiele.Spiel(schlüssel);
+
+            // Spiel ändern
+            spiel.TeilnehmenAls(RollenTyp.Oberrichter);
+            spiel.RolleVerfügbar(RollenTyp.Oberrichter).Should().BeFalse();
+
+            // Spiel speichern
+            spiele.ÄnderungSpeichern(spiel);
+
+            // Spiel jetzt neu abfragen, ob die Änderungen von oben noch vorhanden sind
+            var spielNochmalbgefragt = spiele.Spiel(schlüssel);
+            spielNochmalbgefragt.RolleVerfügbar(RollenTyp.Oberrichter).Should().BeFalse();
+        }
+
+        [TestMethod]
         public void GültigerSchlüssel_Funktioniert()
         {
             var spiele = new Spielspeicher();
